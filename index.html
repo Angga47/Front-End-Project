@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Test</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+    <!-- Gambar -->
+    <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+      <!-- Overlay -->
+      <div class="overlay"></div>
+
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#bs-carousel" data-slide-to="1"></li>
+        <li data-target="#bs-carousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item slides active">
+          <div class="slide-1"></div>
+          <div class="hero">
+            <hgroup>
+                <h1>We are creative</h1>
+                <h3>Get start your next awesome project</h3>
+            </hgroup>
+            <button class="btn btn-hero btn-lg" role="button">See all features</button>
+          </div>
+        </div>
+        <div class="item slides">
+          <div class="slide-2"></div>
+          <div class="hero">
+            <hgroup>
+                <h1>We are smart</h1>
+                <h3>Get start your next awesome project</h3>
+            </hgroup>
+            <button class="btn btn-hero btn-lg" role="button">See all features</button>
+          </div>
+        </div>
+        <div class="item slides">
+          <div class="slide-3"></div>
+          <div class="hero">
+            <hgroup>
+                <h1>We are amazing</h1>
+                <h3>Get start your next awesome project</h3>
+            </hgroup>
+            <button class="btn btn-hero btn-lg" role="button">See all features</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Data -->
+<br />
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-3">
+    	    <div class="hero-widget well well-sm">
+                <div class="icon">
+                     <i class="glyphicon glyphicon-user"></i>
+                </div>
+                <div class="text">
+                    <var>3</var>
+                    <label class="text-muted">users</label>
+                </div>
+                <div class="options">
+                    <a href="javascript:;" class="btn btn-primary btn-lg"><i class="glyphicon glyphicon-plus"></i> Add a user</a>
+                </div>
+            </div>
+		</div>
+        <div class="col-sm-3">
+            <div class="hero-widget well well-sm">
+                <div class="icon">
+                     <i class="glyphicon glyphicon-star"></i>
+                </div>
+                <div class="text">
+                    <var>614</var>
+                    <label class="text-muted">page likes</label>
+                </div>
+                <div class="options">
+                    <a href="javascript:;" class="btn btn-default btn-lg"><i class="glyphicon glyphicon-search"></i> View traffic</a>
+                </div>
+            </div>
+		</div>
+        <div class="col-sm-3">
+            <div class="hero-widget well well-sm">
+                <div class="icon">
+                     <i class="glyphicon glyphicon-tags"></i>
+                </div>
+                <div class="text">
+                    <var>73</var>
+                    <label class="text-muted">total orders</label>
+                </div>
+                <div class="options">
+                    <a href="javascript:;" class="btn btn-default btn-lg"><i class="glyphicon glyphicon-search"></i> View orders</a>
+                </div>
+            </div>
+    	</div>
+        <div class="col-sm-3">
+            <div class="hero-widget well well-sm">
+                <div class="icon">
+                     <i class="glyphicon glyphicon-cog"></i>
+                </div>
+                <div class="text">
+                    <var>75%</var>
+                    <label class="text-muted">profile complete</label>
+                </div>
+                <div class="options">
+                    <a href="javascript:;" class="btn btn-default btn-lg"><i class="glyphicon glyphicon-wrench"></i> Edit profile</a>
+                </div>
+            </div>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+<div class="row">
+  <div class="col-sm-8">
+  </div>
+  <div class="row">
+  <div class="col-sm-4">
+  </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/modif.js"></script>
+
+<hr>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+<hr>
+<!--footer-->
+<footer class="footer1">
+<div class="container">
+
+<div class="row"><!-- row -->
+
+            <div class="col-lg-3 col-md-3"><!-- widgets column left -->
+            <ul class="list-unstyled clear-margins"><!-- widgets -->
+
+                      <li class="widget-container widget_nav_menu"><!-- widgets list -->
+
+                            <h1 class="title-widget">Useful links</h1>
+
+                            <ul>
+                              <li><a  href="#"><i class="fa fa-angle-double-right"></i> About Us</a></li>
+                                <li><a  href="#"><i class="fa fa-angle-double-right"></i> Contact Us</a></li>
+                                <li><a  href="#"><i class="fa fa-angle-double-right"></i> Success Stories</a></li>
+                                <li><a  href="#"><i class="fa fa-angle-double-right"></i> PG Courses</a></li>
+                                <li><a  href="#"><i class="fa fa-angle-double-right"></i> Achiever's Batch</a></li>
+                                <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Regular Batch</a></li>
+                                <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Test & Discussion</a></li>
+                                <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Fast Track T & D</a></li>
+                            </ul>
+
+          </li>
+
+                    </ul>
+
+
+            </div><!-- widgets column left end -->
+
+
+
+            <div class="col-lg-3 col-md-3"><!-- widgets column left -->
+
+            <ul class="list-unstyled clear-margins"><!-- widgets -->
+
+                      <li class="widget-container widget_nav_menu"><!-- widgets list -->
+
+                            <h1 class="title-widget">Useful links</h1>
+
+                            <ul>
+              <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Test Series Schedule</a></li>
+                                <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Postal Coaching</a></li>
+                                <li><a  href="#"><i class="fa fa-angle-double-right"></i>  PG Dr. Bhatia Books</a></li>
+                                <li><a  href="#"><i class="fa fa-angle-double-right"></i>  UG Courses</a></li>
+                                <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Satellite Education</a></li>
+                                <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Study Centres</a></li>
+                                <li><a  href="#"><i class="fa fa-angle-double-right"></i>  State P.G. Mocks</a></li>
+                                <li><a  href="#" target="_blank"><i class="fa fa-angle-double-right"></i> Results</a></li>
+
+                            </ul>
+
+          </li>
+
+                    </ul>
+
+
+            </div><!-- widgets column left end -->
+
+
+
+            <div class="col-lg-3 col-md-3"><!-- widgets column left -->
+
+            <ul class="list-unstyled clear-margins"><!-- widgets -->
+
+                      <li class="widget-container widget_nav_menu"><!-- widgets list -->
+
+                            <h1 class="title-widget">Useful links</h1>
+
+                            <ul>
+
+
+            <li><a href="#"><i class="fa fa-angle-double-right"></i> Enquiry Form</a></li>
+    <li><a href="#"><i class="fa fa-angle-double-right"></i> Online Test Series</a></li>
+    <li><a href="#"><i class="fa fa-angle-double-right"></i> Grand Tests Series</a></li>
+    <li><a href="#"><i class="fa fa-angle-double-right"></i> Subject Wise Test Series</a></li>
+    <li><a href="#"><i class="fa fa-angle-double-right"></i> Smart Book</a></li>
+    <li><a href="#"><i class="fa fa-angle-double-right"></i> Test Centres</a></li>
+            <li><a href="#"><i class="fa fa-angle-double-right"></i>  Admission Form</a></li>
+    <li><a href="#"><i class="fa fa-angle-double-right"></i>  Computer Live Test</a></li>
+
+                    </ul>
+          </li>
+                    </ul>
+            </div><!-- widgets column left end -->
+
+
+            <div class="col-lg-3 col-md-3"><!-- widgets column center -->
+
+
+
+                    <ul class="list-unstyled clear-margins"><!-- widgets -->
+
+                      <li class="widget-container widget_recent_news"><!-- widgets list -->
+
+                            <h1 class="title-widget">Contact Detail </h1>
+
+                            <div class="footerp">
+
+                            <h2 class="title-median">Webenlance Pvt. Ltd.</h2>
+                            <p><b>Email id:</b> <a href="mailto:info@webenlance.com">info@webenlance.com</a></p>
+                            <p><b>Helpline Numbers </b>
+
+<b style="color:#ffc106;">(8AM to 10PM):</b>  +91-8130890090, +91-8130190010  </p>
+
+<p><b>Corp Office / Postal Address</b></p>
+<p><b>Phone Numbers : </b>7042827160, </p>
+<p> 011-27568832, 9868387223</p>
+                            </div>
+
+                            <div class="social-icons">
+
+                              <ul class="nomargin">
+
+            <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-3x social-fb" id="social"></i></a>
+          <a href="https://twitter.com/bootsnipp"><i class="fa fa-twitter-square fa-3x social-tw" id="social"></i></a>
+          <a href="https://plus.google.com/+Bootsnipp-page"><i class="fa fa-google-plus-square fa-3x social-gp" id="social"></i></a>
+          <a href="mailto:bootsnipp@gmail.com"><i class="fa fa-envelope-square fa-3x social-em" id="social"></i></a>
+
+                                </ul>
+                            </div>
+                    </li>
+                      </ul>
+                   </div>
+            </div>
+</div>
+</footer>
+<!--header-->
+
+<div class="footer-bottom">
+
+<div class="container">
+
+<div class="row">
+
+  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+
+    <div class="copyright">
+
+      © 2016, Angga Permana, All rights reserved
+
+    </div>
+
+  </div>
+
+  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+
+    <div class="design">
+
+       <a href="#">DevART </a> |  <a target="_blank" href="#">Web Design & Development by Angga Permana</a>
+
+    </div>
+
+  </div>
+
+</div>
+
+</div>
+
+</div>
+  </body>
+</html>
